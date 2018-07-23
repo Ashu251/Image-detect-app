@@ -1,0 +1,12 @@
+.form{
+    background: linear-gradient(91deg, #e60f2a, #4d0fe6, #050507);
+background-size: 600% 600%;
+
+animation: AnimationName 11s ease infinite;
+}
+
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}

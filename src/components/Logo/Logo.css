@@ -1,0 +1,13 @@
+.Tilt {
+    background: linear-gradient(271deg, #09cfe4, #4318c8);
+    background-size: 400% 400%;
+    
+    animation: body 9s ease infinite;
+}
+
+
+@keyframes body {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+  }
